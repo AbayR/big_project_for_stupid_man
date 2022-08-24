@@ -1,0 +1,47 @@
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	.section-1-box .section-1-box-icon { width: 60px; height: 60px; font-size: 32px; line-height: 60px; }
+	
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	
+
+
+	.section-description p { padding: 0; }
+	
+	.section-1-box .section-1-box-icon { width: 50px; height: 50px; font-size: 26px; line-height: 50px; }
+	
+	.section-3-box .section-3-box-icon { width: 50px; height: 50px; font-size: 26px; line-height: 50px; }
+
+}
+
+@media (max-width: 767px) {
+
+	.section-description p { padding: 0; }
+	
+	.section-1-container { padding-bottom: 60px; }
+	.section-1-box { text-align: center; }
+	.section-1-box h3 { margin-top: 20px; padding-top: 10px; }
+	
+	.section-3-box { text-align: center; }
+	.section-3-box h3 { margin-top: 20px; padding-top: 10px; }
+	
+}
+
+
+
+/* Retina-ize images/icons */
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+	
+	
+	
+}
